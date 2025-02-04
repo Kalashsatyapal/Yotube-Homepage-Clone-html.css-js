@@ -2,7 +2,7 @@
 
 // Array of API Keys
 const API_KEYS = [
-    'Enter_Your_First_Youtube_API_Key',
+    'AIzaSyCmTxaX4ErKNYmlZbElldcqC0B4zcJRg3gy',
     'Enter_Your_Second_Youtube_API_Key',
     'Enter_Your_Third_Youtube_API_Key'
 ];
