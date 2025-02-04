@@ -1,0 +1,64 @@
+<!-- Code by Kalash Satypal-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloneTube - YouTube Homepage Clone</title>
+    <!-- Linking CSS file to HTML file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Code for Navbar -->
+    <nav class="navbar">
+        <div class="menu-icon" id="menu-icon"><i class="fas fa-bars"></i></div>
+        <div class="logo">CloneTube</div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <!-- Code to Profile Dropdown Button -->
+        <div class="profile-dropdown">
+            <button id="profile-btn"><i class="fas fa-user-circle"></i></button>
+            <div class="dropdown-content" id="dropdown-content">
+                <a href="#">My Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+        <div class="nav-buttons">
+            <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+            <button id="signin-btn"><i class="fas fa-user"></i> Sign In</button>
+        </div>
+    </nav>
+
+    <!-- Code for Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="menu-icon" id="sidebar-menu-icon">☰</div>
+            <div class="sidebar-logo">CloneTube</div>
+        </div>
+        <!-- Code for sidebar nav links -->
+        <ul class="sidebar-nav">
+            <li data-topic="Music"><i class="fas fa-music"></i> Music</li>
+            <li data-topic="Gaming"><i class="fas fa-gamepad"></i> Gaming</li>
+            <li data-topic="Sports"><i class="fas fa-football-ball"></i> Sports</li>
+            <li data-topic="Cooking"><i class="fas fa-utensils"></i> Cooking</li>
+            <li data-topic="Education"><i class="fas fa-graduation-cap"></i> Education</li>
+            <li data-topic="News"><i class="fas fa-newspaper"></i> News</li>
+        </ul>
+        <span>contact: Kalashsatypal@gmail.com </span>
+    </aside>
+
+    <!-- Code for Video Container -->
+    <main class="content" id="content">
+        <div class="video-container" id="video-container"></div>
+    </main>
+
+    <!-- Code to Linking JavaScript file to HTML -->
+    <script src="script.js"></script>
+</body>
+</html>
